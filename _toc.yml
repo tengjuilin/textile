@@ -1,0 +1,27 @@
+format: jb-book
+root: index
+
+parts:
+- caption: Intro to Python
+  numbered: true
+  chapters:
+    - file: intro-to-python/intro-to-python
+- caption: Image Processing Lessons
+  numbered: true
+  chapters:
+    - file: image-processing-lesson/image-as-numbers
+    - file: image-processing-lesson/power-of-thresholds-1
+    - file: image-processing-lesson/power-of-thresholds-2
+    - file: image-processing-lesson/quantify-shape-features
+    - file: image-processing-lesson/ogd-severity-workflow
+- caption: Image Processing Activities
+  numbered: true
+  chapters:
+    - file: image-processing-activity/image-as-numbers
+    - file: image-processing-activity/power-of-thresholds-1
+    - file: image-processing-activity/power-of-thresholds-2
+- caption: Data Science
+  numbered: true
+  chapters:
+    - file: data-science/data-management-plan-1
+    - file: data-science/data-management-plan-2
